@@ -1,0 +1,14 @@
+.receiptImage{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.mdPadding{
+    padding:24px;
+}
+
+.centered{
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
+.brand{
+    background-color:#00205B;
+  }
+   .action{
+    background-color:#1662EF;
+  }
+  .white{
+    background-color:#FFFFFF;
+  }
+  .text{
+    background-color:#111111;
+  }
+  .muted{
+    background-color:#AAAAAA;
+  }
+  .divider{
+    background-color:#D9E1E2;
+  }
+  .bg{
+    background-color:#F6F6F6;
+  }
+  .success{
+    background-color:#1CB169;
+  }
+  .warning{
+    background-color:#FFCF01;
+  }
+  .danger{
+    background-color:#DA2F44;
+  }
+  .info{
+    background-color:#EFE9E5;
+  }
+  .opacity30{
+      opacity:0.3;
+  }
+  .huge{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size:64px;
+    line-height:72px;
+  }
+  .headlines{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size:32px;
+    line-height:40px;
+  }
+  .titleBold{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size:24px;
+    line-height:32px;
+  }
+  .titleReg{
+    font-family: 'IBM Plex Sans Regular', sans-serif;
+    font-weight:400;
+    font-size:24px;
+    line-height:32px;
+  }
+  .bodyBold{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:600;
+    font-size:18px;
+    line-height:24px;
+  }
+  .body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:400;
+    font-size:18px;
+    line-height:24px;
+  }
+  .small{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:400;
+    font-size:14px;
+    line-height:20px;
+  }
+  .whiteFont{
+    color:#FFFFFF;
+  }
+.blackFont{
+  color: #000000;
+}
+.greyFont{
+  color:#AAAAAA;
+}
+.centered{
+  margin-left: auto;
+  margin-right: auto;
+}

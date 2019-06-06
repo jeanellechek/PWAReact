@@ -1,0 +1,64 @@
+.iconBox{
+  padding:5px;
+}
+
+#successToast {
+  font-family: 'IBM Plex Sans SemiBold', sans-serif;
+  visibility: hidden;
+  max-height:80px;
+  max-width:280px;
+  background-color: #1CB169;
+  color: #fff;
+  text-align: left;
+  border-radius: 2px;
+  padding: 10px;
+  bottom: 5%;
+  position: absolute;
+ 
+}
+
+#successToast.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#dangerToast {
+  font-family: 'IBM Plex Sans SemiBold', sans-serif;
+  visibility: hidden;
+  max-height:80px;
+  max-width:280px;
+  background-color: #DA2F44;
+  color: #fff;
+  text-align: left;
+  border-radius: 2px;
+  padding: 10px;
+  bottom: 5%;
+  position: absolute;
+}
+
+#dangerToast.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

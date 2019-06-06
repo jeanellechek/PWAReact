@@ -1,0 +1,45 @@
+.iconBox{
+  padding-right:15px;
+}
+
+.noIconLabel {
+  font-family: 'IBM Plex Sans SemiBold', sans-serif;
+  max-height:80px;
+  max-width:280px;
+  text-align: left;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:50px;
+  padding-right:50px;
+  position: absolute;
+} 
+
+.IconLabel {
+  font-family: 'IBM Plex Sans SemiBold', sans-serif;
+  max-height:80px;
+  max-width:280px;
+  text-align: left;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:50px;
+  position: absolute;
+ 
+} 
+.noIconLabel.success{
+  color: #ffffff;
+}
+.noIconLabel.warning{
+  color: #000000;
+}
+.noIconLabel.danger{
+  color:#ffffff;
+}
+.IconLabel.info{
+  columns: #000000;
+}
+.IconLabel.success{
+  color:#ffffff;
+}

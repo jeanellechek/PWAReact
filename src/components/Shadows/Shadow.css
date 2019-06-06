@@ -1,0 +1,42 @@
+
+.block{ 
+  padding:2%;
+  margin-left: auto;
+  margin-right:auto;
+  background-color:#ffffff; 
+}
+
+.blockContainer {
+  width: 95%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+  margin-top:1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button{
+    width:10%;
+    height:10%;
+    padding:10px;
+    background-color:#ffffff;
+}
+
+.buttonContainer {
+  width: 15%;
+  height: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  margin-top:1px;
+}
+
+#block::after {
+  content: '';
+  position: absolute;
+  z-index: -1; /* hide shadow behind image */
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);        
+  width: 70%; 
+  left: 15%; /* one half of the remaining 30% */
+  height: 100px;
+  bottom: 0;
+}

@@ -1,0 +1,27 @@
+.header{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  position:relative;
+  padding:16px;
+}
+
+.fontAction{
+  color:#1662EF;
+}
+.black{
+  background-color: #000000;
+  color:#ffffff;
+}
+
+.white{
+  background-color: #ffffff;
+  color: #000000;
+}
+.right{
+  text-align:right;
+  float:right;
+}
+.paddingmf{
+  padding-left:16px;
+}

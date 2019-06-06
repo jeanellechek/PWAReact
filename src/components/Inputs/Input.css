@@ -1,0 +1,121 @@
+.opacity30{
+  opacity:0.3;
+}
+
+#active:focus{
+  border-color: #1662EF;
+}
+.onBoardTextbox{
+  height:56px;
+  width:80%;
+  border-radius:8px;
+  stroke:1px;
+  border-width: 1px;
+  padding: .375rem .75rem;
+  background-color: #fff;
+  border: 1px solid #D9E1E2;
+  transition: border-color .15s;
+  border-color:#D9E1E2;
+}
+
+.LongTextbox{
+  height:48px;
+  width:80%;
+  border-radius:8px;
+  stroke:1px;
+  border-width: 1px;
+  padding: .375rem .75rem;
+  background-color: #fff;
+  border: 1px solid #D9E1E2;
+  transition: border-color .15s;
+  border-color:#D9E1E2;
+}
+
+.primarySmall{
+    font-family: 'IBM Plex Sans SemiBold', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    height:40px;
+    padding-left:24px;
+    padding-right:24px;
+    display: inline-block;
+    margin-bottom: 0;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, .1);
+  }
+  
+  .primaryRegular{
+    font-family: 'IBM Plex Sans SemiBold', sans-serif;
+    font-weight: bold;
+    font-size:17px;
+    color:#fff;
+    height:56px;
+    padding-left:32px;
+    padding-right:32px;
+    display: inline-block;
+    margin-bottom: 0;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, .1);
+    
+  }
+  
+  .primaryFullWidth{
+    font-family: 'IBM Plex Sans SemiBold', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    font-size:18px;
+    height:56px;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, .1);
+    vertical-align: auto;
+    width:100%;
+    filter: alpha(opacity=30);
+  }
+
+  .primaryFullWidth:focus{
+    animation: fadeInOut 4s linear forwards;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0)
+  }
+
+  .secondary{
+    font-family: 'IBM Plex Sans SemiBold', sans-serif;
+    font-weight: bold;
+    color:#1662EF;
+    height:40px;
+    padding-left:24px;
+    padding-right:24px;
+    display: inline-blok;
+    margin-bottom: 0;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    line-height: 1.42857143;
+    border-radius: 4px;
+  }
+  
+  .error{
+    font-size: 18px;
+    color:#DA2F44;
+  }

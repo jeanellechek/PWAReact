@@ -1,0 +1,49 @@
+.listImage{
+  width:80px;
+  height:80px;
+}
+
+.pending{
+  color:#FFCF01;
+  font-family: 'IBM Plex Sans Regular', sans-serif;
+  font-size:24px;
+  line-height:32px;
+  text-align:right;
+}
+
+.rejected{
+  color:#DA2F44;
+  font-family: 'IBM Plex Sans Regular', sans-serif;
+  font-size:24px;
+  line-height:32px;
+  text-align:right;
+}
+
+.cancelled{
+  color:#AAAAAA;
+  font-family: 'IBM Plex Sans Regular', sans-serif;
+  font-size:24px;
+  line-height:32px;
+  text-align:right;
+}
+
+.points{
+  color:#1CB169;
+  font-family: 'IBM Plex Sans Regular', sans-serif;
+  font-size:24px;
+  line-height:32px;
+  text-align:right;
+}
+.coin{
+  width:20px;
+  height:20px;
+  margin-left:5px;
+  padding-top:10px;
+}
+.next{
+  color:#AAAAAA;
+  float:right;
+}
+.right{
+  text-align: right;
+}

@@ -1,0 +1,48 @@
+.xs-topDown{
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.sm-topDown{
+    margin-top:16px;
+    margin-bottom:16px;
+}
+
+.md-topDown{
+    margin-top:24px;
+    margin-bottom:24px;
+}
+.lg-topDown{
+    margin-top:48px;
+    margin-bottom: 48px;
+}
+.xl-topDown{
+    margin-top:64px;
+    margin-bottom:64px;
+}
+.xs-leftRight{
+    margin-left:8px;
+    margin-right:8px;
+}
+
+.sm-leftRight{
+    margin-left:16px;
+    margin-right:16px;
+}
+
+.md-leftRight{
+    margin-left:24px;
+    margin-right:24px;
+}
+.lg-leftRight{
+    margin-left:48px;
+    margin-right: 48px;
+}
+.xl-leftRight{
+    margin-left:64px;
+    margin-right:64px;
+}
+
+.mdPadding{
+    padding:24px;
+}
